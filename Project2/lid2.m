@@ -143,4 +143,4 @@ colorbar
 contour(yy,xx,uf);
 figure(2)
 streamline(stream2(xx,yy,uf,vf,xx,yy))
-quiver(xx,yy,uf,vf)
+quiver(yy,xx,vf,uf)
